@@ -1,0 +1,4 @@
+interface:
+  display_name: "Course and Syllabus Designer"
+  short_description: "Design learner-centered courses and syllabi"
+  default_prompt: "Use $course-and-syllabus-designer to draft an accessible, faculty-controlled course syllabus."
