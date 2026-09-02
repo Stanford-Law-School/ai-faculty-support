@@ -1,0 +1,3 @@
+interface:
+  display_name: "Legal Authority Verifier"
+  short_description: "Audit whether legal sources support the propositions claimed."

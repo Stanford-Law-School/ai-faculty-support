@@ -1,0 +1,3 @@
+interface:
+  display_name: "Legal Skills Guide"
+  short_description: "Route a faculty legal-method task to the right helper."
