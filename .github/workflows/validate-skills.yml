@@ -1,0 +1,48 @@
+name: Validate Skills
+
+on:
+  pull_request:
+    paths:
+      - 'skills/**'
+      - 'scripts/**'
+      - 'evaluations/**'
+  push:
+    paths:
+      - 'skills/**'
+      - 'scripts/**'
+      - 'evaluations/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Install test dependencies
+        run: python -m pip install pytest PyYAML
+      - name: Validate skills
+        run: |
+          set -euo pipefail
+          for skill in skills/*; do
+            if [ -f "$skill/SKILL.md" ]; then
+              python scripts/validate_skill_package.py "$skill"
+            fi
+          done
+      - name: Run tests
+        run: python -m pytest
+      - name: Package skills
+        run: |
+          set -euo pipefail
+          mkdir -p ci-artifacts
+          for skill in skills/*; do
+            if [ -f "$skill/SKILL.md" ]; then
+              python scripts/package_skill.py "$skill" --output "ci-artifacts/$(basename "$skill").zip"
+            fi
+          done
+      - name: Upload skill packages
+        uses: actions/upload-artifact@v4
+        with:
+          name: skill-packages
+          path: ci-artifacts/*.zip
