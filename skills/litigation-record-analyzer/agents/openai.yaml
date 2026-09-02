@@ -1,0 +1,3 @@
+interface:
+  display_name: "Litigation Record Analyzer"
+  short_description: "Build a reliable procedural and document map from a record."

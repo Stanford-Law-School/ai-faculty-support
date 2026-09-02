@@ -1,0 +1,3 @@
+interface:
+  display_name: "Plan an AI Pilot"
+  short_description: "Design a responsible AI pilot with evidence, thresholds, and stopping rules."
