@@ -1,0 +1,3 @@
+interface:
+  display_name: "Test What AI Can Do"
+  short_description: "Run safe experiments that reveal AI strengths and failure modes."
