@@ -1,0 +1,3 @@
+interface:
+  display_name: "Citation Checker"
+  short_description: "Check source existence, support, quotations, authority, and currency."

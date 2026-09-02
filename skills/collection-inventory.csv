@@ -1,0 +1,13 @@
+order,display_name,slug,tagline,zip_bytes,validation
+1,Legal Question Framer,legal-question-framer,Clarify the question before collecting answers.,16604,passed
+2,Case Law Analyzer,case-law-analyzer,"Read the opinion as a legal act, not just a story.",16340,passed
+3,Doctrine Mapper,doctrine-mapper,See the doctrine as a structured field of authority.,16314,passed
+4,Statute and Regulation Interpreter,statute-regulation-interpreter,Read the text in its full legal setting.,16620,passed
+5,Legislative and Administrative History Navigator,legislative-administrative-history-navigator,Trace the record without overstating what it proves.,17089,passed
+6,Comparative Law Research Planner,comparative-law-research-planner,Compare legal systems without flattening their differences.,16719,passed
+7,Litigation Record Analyzer,litigation-record-analyzer,"Separate what was filed, argued, found, and decided.",16502,passed
+8,Transaction Structure Analyzer,transaction-structure-analyzer,See how the document makes the transaction work.,16744,passed
+9,Professional Responsibility Analyzer,professional-responsibility-analyzer,"Identify the duty, authority, facts, and uncertainty.",16854,passed
+10,Legal Argument Stress Tester,legal-argument-stress-tester,Make the argument survive more than friendly reading.,16650,passed
+11,Legal Authority Verifier,legal-authority-verifier,"Verify the authority, not just the citation format.",16485,passed
+12,Legal Skills Guide,legal-skills-guide,Start with the legal-method problem that actually needs attention.,16475,passed

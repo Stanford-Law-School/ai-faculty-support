@@ -1,0 +1,4 @@
+interface:
+  display_name: "Class Session Planner"
+  short_description: "Plan one law-school class meeting or connected sequence"
+  default_prompt: "Use $class-session-planner to design a realistic, faculty-controlled class-session plan."

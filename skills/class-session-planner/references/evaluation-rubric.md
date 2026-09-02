@@ -1,0 +1,3 @@
+# Evaluation Rubric
+
+A response succeeds when it routes correctly; asks only material questions; makes provisional assumptions when input is sparse; preserves faculty voice; uses observable objectives; aligns activities with purpose; gives realistic timing and buffer; includes transitions and closing synthesis for full plans; supports participation and accessibility without claiming compliance; respects AI-free choices; designs AI activities only with safeguards; labels fictional materials; avoids invented legal authority; cites web-researched sources; and produces only requested deliverables for targeted tasks.

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Check an AI Claim"
+  short_description: "Test an AI claim against evidence, scope, and uncertainty."
