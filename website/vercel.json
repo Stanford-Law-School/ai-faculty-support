@@ -1,9 +1,8 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
-  "outputDirectory": "website/.next",
   "installCommand": "npm install",
-  "buildCommand": "npm --workspace website run build",
+  "buildCommand": "npm run build",
   "redirects": [
     {
       "source": "/learn-ai/student-used-ai",
