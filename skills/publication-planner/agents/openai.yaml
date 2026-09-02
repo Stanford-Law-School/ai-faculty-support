@@ -1,0 +1,3 @@
+interface:
+  display_name: "Publication Planner"
+  short_description: "Plan journal, conference, and submission steps using current requirements."
