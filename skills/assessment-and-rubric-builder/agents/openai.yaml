@@ -1,0 +1,4 @@
+interface:
+  display_name: "Assessment and Rubric Builder"
+  short_description: "Design, revise, align, and stress-test law-school assessments and rubrics"
+  default_prompt: "Use $assessment-and-rubric-builder to create or review an aligned assessment, rubric, scoring guide, or formative check."
