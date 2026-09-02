@@ -1,0 +1,876 @@
+[
+  {
+    "name": "Course and Syllabus Designer",
+    "slug": "course-and-syllabus-designer",
+    "version": "0.1.0",
+    "status": "Pilot",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/course-and-syllabus-designer.zip",
+    "summary": "A faculty-centered assistant for designing law courses, refreshing syllabi, aligning assignments, and preparing accessible course materials.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Help me design a syllabus for a new seminar.",
+      "Revise this existing course calendar and reading list."
+    ]
+  },
+  {
+    "name": "Class Session Planner",
+    "slug": "class-session-planner",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/class-session-planner.zip",
+    "summary": "A faculty teaching partner for designing, revising, and preparing one law-school class meeting or a short connected sequence with aligned objectives, activities, questions, timing, and teaching notes.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "I have to teach personal jurisdiction for 90 minutes next week. Help me plan it.",
+      "Revise this class plan; discussion always runs long.",
+      "Create Socratic questions and branching follow-ups for this case."
+    ]
+  },
+  {
+    "name": "Assessment and Rubric Builder",
+    "slug": "assessment-and-rubric-builder",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/assessment-and-rubric-builder.zip",
+    "summary": "A faculty teaching partner for designing, revising, aligning, and reviewing law-school assessments, exams, rubrics, scoring guides, formative checks, and AI-literacy evaluation exercises.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "I need a final assessment for my upper-level privacy seminar.",
+      "Review this take-home exam for fairness, workload, and ambiguity.",
+      "Build a rubric for this policy memo assignment with limited AI use for brainstorming."
+    ]
+  },
+  {
+    "name": "Faculty AI Policy Builder",
+    "slug": "faculty-ai-policy-builder",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/faculty-ai-policy-builder.zip",
+    "summary": "A neutral faculty teaching-policy partner for creating, revising, comparing, auditing, and explaining course-level and assignment-level generative AI-use policies, disclosure forms, student FAQs, and implementation guidance.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "I need an AI policy for my seminar, but I am not sure how strict it should be.",
+      "Revise this vague AI policy and add examples for students.",
+      "Create assignment-specific AI rules and a simple disclosure form for my research memo."
+    ]
+  },
+  {
+    "name": "Socratic Question and Hypothetical Designer",
+    "slug": "socratic-question-and-hypothetical-designer",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/socratic-question-and-hypothetical-designer.zip",
+    "summary": "A faculty teaching partner for creating purposeful Socratic and guided-questioning sequences, cold-call pathways, branching follow-ups, factual variations, and instructional hypotheticals.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Help me develop Socratic questions for a class on consideration.",
+      "I need a hypothetical that helps students distinguish personal jurisdiction cases.",
+      "Revise this question sequence; it feels repetitive and too adversarial."
+    ]
+  },
+  {
+    "name": "Teaching Materials Accessibility Reviewer",
+    "slug": "teaching-materials-accessibility-reviewer",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/teaching-materials-accessibility-reviewer.zip",
+    "summary": "A faculty teaching partner for reviewing and revising syllabi, assignments, handouts, slides, readings, media, and classroom activities for likely accessibility, usability, clarity, and inclusive participation barriers.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Can you review this syllabus for accessibility?",
+      "Please make this assignment easier for students to understand and navigate.",
+      "Draft alt text and a long-description plan for this doctrinal diagram."
+    ]
+  },
+  {
+    "name": "Reading List and Course Materials Curator",
+    "slug": "reading-list-and-course-materials-curator",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/reading-list-and-course-materials-curator.zip",
+    "summary": "A faculty teaching partner for building, verifying, annotating, balancing, and maintaining course reading lists and instructional resource collections.",
+    "updated": "2026-07-21",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Help me build a reading list for a seminar on AI and the legal profession.",
+      "Update this five-year-old syllabus and flag outdated or inaccessible readings.",
+      "Audit this weekly module for workload, access, and balance."
+    ]
+  },
+  {
+    "name": "How AI Systems Work",
+    "slug": "how-ai-systems-work",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/how-ai-systems-work.zip",
+    "summary": "A conversational faculty learning lab that reveals the layers inside AI systems and helps distinguish models, products, retrieval, agents, permissions, evaluation, hosting, adaptation, and training before making a build, buy, configure, host, pilot, or do-not-use decision.",
+    "updated": "2026-07-23",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "What does it actually mean to build our own AI?",
+      "If we upload our materials, are we training the model?",
+      "Help me map the layers in this proposed AI assistant.",
+      "What is the difference between retrieval, fine-tuning, and pretraining?"
+    ]
+  },
+  {
+    "name": "Understand an AI Tool",
+    "slug": "understand-an-ai-tool",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/understand-an-ai-tool.zip",
+    "summary": "A current, conversational faculty briefing tool that explains what an AI product or feature actually is, maps its architecture and dependencies, assesses differentiation, compares meaningful alternatives, checks public Stanford information, proposes faculty use cases, and prepares questions for vendor demonstrations.",
+    "updated": "2026-07-23",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "What do I need to know about this AI product?",
+      "Is this genuinely differentiated or mostly an interface over another model?",
+      "Prepare me for this vendor demonstration.",
+      "Compare this tool with a general-purpose Stanford AI service.",
+      "What faculty uses appear realistic, and how could I test them safely?"
+    ]
+  },
+  {
+    "name": "Check an AI Claim",
+    "slug": "check-an-ai-claim",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/check-an-ai-claim.zip",
+    "summary": "A conversational evidence-literacy lab that helps faculty clarify and test claims about AI, distinguish technical facts from empirical findings, marketing, normative positions, and predictions, calibrate confidence, and identify the evidence, limitations, and experiments that matter.",
+    "updated": "2026-07-23",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "AI is just autocomplete, right?",
+      "Does this study really show that AI is more accurate than lawyers?",
+      "This vendor says the product saves 70 percent of research time. How strong is that claim?",
+      "Will AI replace junior lawyers?",
+      "Help me test whether retrieval eliminates hallucinations."
+    ]
+  },
+  {
+    "name": "Test What AI Can Do",
+    "slug": "test-what-ai-can-do",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/test-what-ai-can-do.zip",
+    "summary": "A hands-on faculty learning lab for predicting, testing, observing, and interpreting AI capabilities and failure modes, including source use, omissions, variability, prompt sensitivity, sycophancy, retrieval, confidence, context conflicts, permissions, and human-review burden.",
+    "updated": "2026-07-23",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Show me a five-minute experiment that reveals a subtle AI failure.",
+      "Test whether this system admits when the necessary source is missing.",
+      "Help me compare repeated answers and determine whether the differences matter.",
+      "Create a classroom exercise on AI citations and silent omissions.",
+      "Why did this output fail, and which system layer should we test next?"
+    ]
+  },
+  {
+    "name": "Where to Start with AI",
+    "slug": "where-to-start-with-ai",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/where-to-start-with-ai.zip",
+    "summary": "A welcoming, conversational front door to the SLS AI Judgment Series that helps faculty identify the AI question or decision that matters, recognize existing strengths and uncertain mental models, choose an appropriate learning route, begin with a small useful experience, and maintain a personalized Faculty AI Learning Map and Field Notebook without scoring or ranking them.",
+    "updated": "2026-07-23",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "I feel completely lost. Where should I begin?",
+      "I understand some AI terms but do not know what questions I should ask.",
+      "Help me choose the most useful SLS AI learning lab for this situation.",
+      "Create a ten-minute AI learning path before my faculty meeting.",
+      "Update my Faculty AI Learning Map based on what I have completed."
+    ]
+  },
+  {
+    "name": "Plan an AI Pilot",
+    "slug": "plan-an-ai-pilot",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/plan-an-ai-pilot.zip",
+    "summary": "A faculty-centered evaluation designer for turning a defined AI use case into a responsible pilot with a meaningful baseline, representative test cases, success thresholds, failure rules, human-review measurement, data and permission limits, stop conditions, and a decision-ready results memo.",
+    "updated": "2026-07-24",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Help me design a pilot for this source-grounded faculty assistant.",
+      "What test cases should we use instead of relying on the vendor demo?",
+      "Create success thresholds and critical-failure rules for this use case.",
+      "Measure whether review and correction erase the expected time savings.",
+      "Turn these completed pilot results into a decision memo."
+    ]
+  },
+  {
+    "name": "Problem-Based Approach to AI",
+    "slug": "problem-based-approach-to-ai",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/problem-based-approach-to-ai.zip",
+    "summary": "A conversational, problem-first studio that helps faculty define the real work challenge, map the current workflow, identify root causes, compare AI and non-AI approaches, decompose tasks, apply the SLS PAUSE framework, preserve human judgment, and produce a responsible use-case or no-use recommendation.",
+    "updated": "2026-07-24",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "I want to use AI to save time, but I do not know where to start.",
+      "We think we need a chatbot. Help us define the actual problem.",
+      "Could AI help me give students more formative feedback?",
+      "Map this workflow and identify which parts should remain human.",
+      "Compare an AI approach with a non-AI solution."
+    ]
+  },
+  {
+    "name": "Test AI Governance",
+    "slug": "test-ai-governance",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/test-ai-governance.zip",
+    "summary": "A conversational, scenario-based faculty simulator for examining AI accountability, decision rights, meaningful human judgment, data access, agent permissions, evidence gates, transparency, correction, monitoring, incident response, stopping authority, and renewed review.",
+    "updated": "2026-07-24",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Run a governance simulation for a source-grounded course assistant.",
+      "Is \u201ca professor will review it\u201d meaningful human oversight?",
+      "Map what this agent may read, draft, change, send, and delete.",
+      "Who should be able to stop this system when something goes wrong?",
+      "Create governance requirements that must be resolved before a pilot."
+    ]
+  },
+  {
+    "name": "Bring AI Into Your Teaching",
+    "slug": "bring-ai-into-teaching",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/bring-ai-into-teaching.zip",
+    "summary": "A faculty-centered teaching studio for translating AI concepts, product insights, experiments, governance issues, and course objectives into purposeful learning activities that preserve foundational work, make student reasoning visible, require source verification, provide equitable no-tool alternatives, and include accessible instructions, debriefs, and evidence of learning.",
+    "updated": "2026-07-24",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Should AI be part of this course activity at all?",
+      "Turn this AI failure into a five-minute student exercise.",
+      "Redesign this assignment so AI does not hide students\u2019 legal analysis.",
+      "Create a tool-independent activity on verifying AI-generated citations.",
+      "Build a debrief connecting this exercise to professional judgment."
+    ]
+  },
+  {
+    "name": "Research Support Guide",
+    "slug": "research-support-guide",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/research-support-guide.zip",
+    "summary": "A conversational front door to the Faculty Research & Scholarship collection that helps faculty name the research or writing need in front of them and routes to the smallest useful helper, without scoring or ranking the scholar.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "I have several research problems at once \u2014 where should I start?",
+      "Which helper fits turning a rough idea into a project?",
+      "I need a short research-support path before my writing week.",
+      "Help me tell apart literature review, legal research, and argument work."
+    ]
+  },
+  {
+    "name": "Research Project Planner",
+    "slug": "research-project-planner",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/research-project-planner.zip",
+    "summary": "A faculty research partner for turning a broad topic, source, dataset, grant idea, or stalled article into a feasible project \u2014 distinguishing a topic from a research problem, developing questions, setting scope, mapping evidence and database needs, and preparing a research-assistant brief.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Turn this broad topic into a researchable question.",
+      "Help me scope a feasible article from these notes.",
+      "Map the evidence and databases this project will need.",
+      "Draft a research-assistant brief for this study."
+    ]
+  },
+  {
+    "name": "Literature Review Helper",
+    "slug": "literature-review-helper",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/literature-review-helper.zip",
+    "summary": "A faculty research partner for planning and conducting a transparent literature or source review \u2014 developing search concepts, selecting databases, setting inclusion criteria, building a source matrix, synthesizing themes, mapping disagreement, and verifying gaps before claiming a contribution.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Help me plan a transparent literature review method.",
+      "Build a source matrix and synthesize the themes.",
+      "Which databases and search terms should I use?",
+      "Is this really a gap, or have I missed the scholarship?"
+    ]
+  },
+  {
+    "name": "Legal Research Planner",
+    "slug": "legal-research-planner",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/legal-research-planner.zip",
+    "summary": "A faculty research partner for designing an authoritative legal research strategy \u2014 scoping jurisdiction and dates, planning primary and secondary sources, tracking contrary authority and citators, selecting SLS databases, and keeping a documented search and updating trail.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Design a legal research strategy for this question.",
+      "What primary and secondary sources should I plan for?",
+      "Help me build a research log and updating plan.",
+      "Which SLS databases fit this jurisdiction and topic?"
+    ]
+  },
+  {
+    "name": "Argument Builder",
+    "slug": "argument-builder",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/argument-builder.zip",
+    "summary": "A faculty writing partner for developing a scholarly argument after sufficient research \u2014 distinguishing claims from evidence, articulating warrants, testing assumptions, surfacing counterarguments, calibrating certainty, and building an argument outline without overstating novelty.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Help me separate my claims from my evidence.",
+      "What are the strongest counterarguments to this thesis?",
+      "Am I overstating how novel this contribution is?",
+      "Turn these findings into an argument outline."
+    ]
+  },
+  {
+    "name": "Draft Revision Coach",
+    "slug": "draft-revision-coach",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/draft-revision-coach.zip",
+    "summary": "A faculty writing partner for revising the structure and argument flow of a substantial scholarly draft \u2014 diagnosing organization, section purpose, claim sequence, repetition, transitions, and reader burden, and producing a prioritized revision plan while preserving authorship.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Diagnose the structure of this article draft.",
+      "Why does my argument feel repetitive and hard to follow?",
+      "Give me a prioritized revision plan for this chapter.",
+      "Is each section doing distinct work?"
+    ]
+  },
+  {
+    "name": "Citation Checker",
+    "slug": "citation-checker",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/citation-checker.zip",
+    "summary": "A faculty research partner for auditing citations and authorities in scholarly drafts using supplied sources and authoritative tools \u2014 checking that sources exist and resolve, quotations and pinpoints are accurate, authorities support the stated proposition, and unsupported claims are flagged.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Check whether these authorities support my propositions.",
+      "Verify the quotations and pinpoints in this draft.",
+      "Flag any claims in this section that lack support.",
+      "Is this source still good law, and does it say what I claim?"
+    ]
+  },
+  {
+    "name": "Scholarly Writing Editor",
+    "slug": "scholarly-writing-editor",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/scholarly-writing-editor.zip",
+    "summary": "A faculty writing partner for editing scholarly prose for clarity, precision, concision, coherence, and consistent voice while preserving substantive meaning and authorship \u2014 line editing, tightening, plain-language revision, and explaining recurring style problems.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Line edit this section for clarity and concision.",
+      "Tighten this paragraph without changing its meaning.",
+      "Explain the recurring style problems in my writing.",
+      "Make this passage clearer for a broader scholarly audience."
+    ]
+  },
+  {
+    "name": "Publication Planner",
+    "slug": "publication-planner",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/publication-planner.zip",
+    "summary": "A faculty research partner for planning publication and submission of substantially developed work \u2014 researching current journal or venue criteria and deadlines, refining title and abstract, preparing submission and cover materials, and comparing publication options without guaranteeing acceptance.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Which journals or venues fit this article?",
+      "Refine my title and abstract for submission.",
+      "What are the current submission requirements and deadlines?",
+      "Build a workback schedule for this submission cycle."
+    ]
+  },
+  {
+    "name": "Public Writing Adapter",
+    "slug": "public-writing-adapter",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/public-writing-adapter.zip",
+    "summary": "A faculty writing partner for adapting completed scholarship for policy, practitioner, student, media, or public audiences \u2014 reshaping format, message hierarchy, and terminology while preserving evidence, uncertainty, attribution, and the line between findings and advocacy.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Adapt this article into an op-ed for a general audience.",
+      "Turn these findings into a practitioner briefing.",
+      "Write a short public explainer that keeps the caveats.",
+      "Adjust the terminology level for a policy readership."
+    ]
+  },
+  {
+    "name": "Legal Skills Guide",
+    "slug": "legal-skills-guide",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/legal-skills-guide.zip",
+    "summary": "A front door to the SLS Legal Skills collection that helps faculty name the legal-method problem in front of them and routes to the one helper that fits, without performing the whole workflow or touching client and clinic matters.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "I have several legal-method tasks \u2014 where should I start?",
+      "Which helper fits reading and briefing a new opinion?",
+      "I need to check the authorities in a draft \u2014 where do I go?",
+      "Route this teaching problem to the right legal skill."
+    ]
+  },
+  {
+    "name": "Legal Question Framer",
+    "slug": "legal-question-framer",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/legal-question-framer.zip",
+    "summary": "Helps faculty turn a broad topic, classroom problem, or tentative conclusion into a precise, researchable legal question \u2014 clarifying jurisdiction, time, procedural posture, roles, material facts, assumptions, source hierarchy, and subquestions.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Turn this rough topic into a researchable legal question.",
+      "What jurisdiction and posture should this question specify?",
+      "Break this problem into subquestions.",
+      "Is this a research question or already a conclusion?"
+    ]
+  },
+  {
+    "name": "Case Law Analyzer",
+    "slug": "case-law-analyzer",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/case-law-analyzer.zip",
+    "summary": "Helps faculty analyze judicial opinions for research and teaching \u2014 preserving procedural posture, source status, material facts, issues, holdings, dicta, reasoning, standards of review, remedies, separate opinions, and later treatment.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Map the holding and dicta in this opinion.",
+      "Prepare this case for class discussion.",
+      "Has this decision been treated favorably since?",
+      "Compare the majority and dissent's reasoning."
+    ]
+  },
+  {
+    "name": "Doctrine Mapper",
+    "slug": "doctrine-mapper",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/doctrine-mapper.zip",
+    "summary": "Synthesizes a body of cases and related authority into a doctrine map \u2014 governing rules, elements, tests, exceptions, burdens, jurisdictional splits, historical development, competing rationales, and unresolved questions.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Synthesize these cases into a doctrine map.",
+      "Where do the circuits split on this test?",
+      "How has this doctrine developed over time?",
+      "What questions in this area are still unresolved?"
+    ]
+  },
+  {
+    "name": "Statute and Regulation Interpreter",
+    "slug": "statute-regulation-interpreter",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/statute-regulation-interpreter.zip",
+    "summary": "Helps faculty analyze statutes, regulations, rules, and ordinances \u2014 current text, definitions, structure, cross-references, amendments, effective dates, delegated authority, implementing regulations, interpretive canons, judicial constructions, preemption, and remedies.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Interpret this statutory section in context.",
+      "Which canons bear on this ambiguous provision?",
+      "What regulations implement this statute?",
+      "Has a court construed this language?"
+    ]
+  },
+  {
+    "name": "Legislative and Administrative History Navigator",
+    "slug": "legislative-administrative-history-navigator",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/legislative-administrative-history-navigator.zip",
+    "summary": "Helps faculty plan, conduct, and teach legislative- and administrative-history research \u2014 bills, versions, reports, hearings, floor materials, rulemaking records, notices, comments, and agency explanations \u2014 weighing provenance and evidentiary weight.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Plan a legislative-history search for this provision.",
+      "How much weight does this committee report carry?",
+      "Trace the rulemaking record for this regulation.",
+      "Distinguish proposed from final agency action here."
+    ]
+  },
+  {
+    "name": "Comparative Law Research Planner",
+    "slug": "comparative-law-research-planner",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/comparative-law-research-planner.zip",
+    "summary": "Helps faculty design foreign, comparative, and international-law research \u2014 selecting jurisdictions, defining the function compared, locating official sources, checking translations, identifying local terminology, and testing whether an analogy holds.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Plan a comparative study across these jurisdictions.",
+      "What's the functional equivalent I should compare?",
+      "Where do I find official sources for this country's law?",
+      "Does this analogy between the two systems hold?"
+    ]
+  },
+  {
+    "name": "Litigation Record Analyzer",
+    "slug": "litigation-record-analyzer",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/litigation-record-analyzer.zip",
+    "summary": "Helps faculty organize and analyze public litigation records for research and teaching \u2014 complaints, motions, briefs, exhibits, transcripts, orders, judgments, docket entries, and appellate materials \u2014 into chronologies and allegation-to-finding maps.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Build a procedural chronology from this docket.",
+      "Map allegations to what the court actually found.",
+      "Turn this record into a classroom exercise.",
+      "What issues were preserved for appeal?"
+    ]
+  },
+  {
+    "name": "Transaction Structure Analyzer",
+    "slug": "transaction-structure-analyzer",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/transaction-structure-analyzer.zip",
+    "summary": "Helps faculty analyze transaction documents and agreement structures for research and teaching \u2014 parties, defined terms, consideration, representations and warranties, covenants, conditions, closing mechanics, indemnities, remedies, governance, and risk allocation.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Explain how this agreement is structured.",
+      "Walk through the reps, warranties, and covenants.",
+      "How is risk allocated between these parties?",
+      "Turn this contract into a teaching example."
+    ]
+  },
+  {
+    "name": "Professional Responsibility Analyzer",
+    "slug": "professional-responsibility-analyzer",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/professional-responsibility-analyzer.zip",
+    "summary": "Helps faculty examine professional-responsibility and legal-ethics questions for research and teaching \u2014 roles, jurisdictions, duties, rule text, comments, cases, ethics opinions, conflicts, confidentiality, candor, competence, and competing obligations.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Analyze the professional-responsibility issues in this hypothetical.",
+      "Which rule and comments govern this conflict?",
+      "What ethics opinions bear on this question?",
+      "Build a legal-ethics teaching problem."
+    ]
+  },
+  {
+    "name": "Legal Argument Stress Tester",
+    "slug": "legal-argument-stress-tester",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/legal-argument-stress-tester.zip",
+    "summary": "Helps faculty test a legal argument against authority, counterauthority, factual assumptions, procedural posture, standards of review, institutional competence, administrability, remedies, unintended consequences, and the strongest opposing position.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Stress-test this thesis against its strongest opposition.",
+      "What counterauthority undercuts this argument?",
+      "Where are the factual assumptions weakest?",
+      "Build a seminar exercise around competing arguments."
+    ]
+  },
+  {
+    "name": "Legal Authority Verifier",
+    "slug": "legal-authority-verifier",
+    "version": "0.1.0",
+    "status": "Development",
+    "platforms": [
+      "ChatGPT",
+      "Claude"
+    ],
+    "downloadUrl": "/downloads/legal-authority-verifier.zip",
+    "summary": "Helps faculty audit legal authority in scholarship, teaching materials, and research memos \u2014 source existence, jurisdiction, date, posture, current treatment, quotation accuracy, pinpoints, proposition support, parentheticals, signals, and contrary authority.",
+    "updated": "2026-07-30",
+    "installationGuides": {
+      "chatgpt": "/install-chatgpt",
+      "claude": "/install-claude"
+    },
+    "usageExamples": [
+      "Audit the authorities in this draft.",
+      "Do these sources support the propositions they're cited for?",
+      "Check these quotations and pinpoints.",
+      "Is this citation still good law?"
+    ]
+  }
+]
