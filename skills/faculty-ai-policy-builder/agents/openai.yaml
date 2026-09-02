@@ -1,0 +1,4 @@
+interface:
+  display_name: "Faculty AI Policy Builder"
+  short_description: "Create, revise, compare, and explain course or assignment AI-use policies"
+  default_prompt: "Use $faculty-ai-policy-builder to create, review, or explain student generative-AI rules for a course or assignment."

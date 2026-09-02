@@ -1,0 +1,3 @@
+interface:
+  display_name: "Legal Argument Stress Tester"
+  short_description: "Test a legal position against its strongest weaknesses."
