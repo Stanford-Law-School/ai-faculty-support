@@ -1,0 +1,19 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "nextjs",
+  "outputDirectory": "website/.next",
+  "installCommand": "npm install",
+  "buildCommand": "npm --workspace website run build",
+  "redirects": [
+    {
+      "source": "/learn-ai/student-used-ai",
+      "destination": "/learn-ai/students-use-ai-and-learn-law/",
+      "permanent": true
+    },
+    {
+      "source": "/learn-ai/student-used-ai/",
+      "destination": "/learn-ai/students-use-ai-and-learn-law/",
+      "permanent": true
+    }
+  ]
+}
