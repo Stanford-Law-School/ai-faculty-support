@@ -20,7 +20,29 @@ export const metadata: Metadata = {
   title: "AI and Technology Support for SLS Faculty",
   description:
     "Practical, judgment-first AI and technology support for SLS faculty from the Robert Crown Law Library — a growing set of resources, starting with ready-made skills for ChatGPT and Claude.",
-  alternates: { canonical: "/" },
+  // No `alternates.canonical` here, deliberately. Metadata declared on the root
+  // layout is inherited by every descendant, and a canonical URL is the one
+  // field for which that is always wrong: it identifies a single URL, so an
+  // inherited one tells all 76 pages they are the home page. The home page's own
+  // canonical lives in app/page.tsx alongside the per-route canonicals the rest
+  // of the site already declares. Title and description stay here, because those
+  // are genuine site-wide defaults that a page overrides when it has something
+  // better to say.
+  //
+  // The whole site sits behind Stanford SSO and is not meant to be indexed, so
+  // every page asks to be kept out of search results and out of the crawling
+  // that follows from them. Declared once here rather than per page: Next merges
+  // a page's metadata over the root layout's, and no page sets `robots`, so this
+  // governs all of them and a new page cannot forget it.
+  //
+  // This is the meta-tag half; app/robots.ts is the other half. Neither is
+  // access control — see the note in app/robots.ts.
+  robots: {
+    index: false,
+    follow: false,
+    nocache: true,
+    googleBot: { index: false, follow: false, noimageindex: true },
+  },
 };
 
 // Applies an explicit theme before the body is rendered. Keeping both themes
