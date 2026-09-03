@@ -26,12 +26,13 @@ export function Header() {
   const pathname = usePathname();
 
   // Same tab, deliberately, and this is the one asymmetry with the hub's link in
-  // the other direction. The hub's "Access Faculty Resources" button has to open a
-  // new tab because every hub page is itself framed by Google Sites, so a same-tab
-  // link there would load this site inside that frame. Nothing frames this site, so
-  // there is no frame to escape and "Return to the AI Learning Hub" can simply mean
-  // what it says. It is a plain anchor rather than next/link because it leaves the
-  // application entirely.
+  // the other direction. The hub's button into this site opens a new tab, because
+  // a Stanford SSO redirect chain is most reliable running at the top level, and
+  // any hub page still being read inside a frame would otherwise load this site
+  // within that frame. Coming back the other way there is no sign-in to negotiate
+  // and nothing frames this site, so "Return to AI Learning Hub" can simply mean
+  // what it says: same tab, no new-tab warning to announce. It is a plain anchor
+  // rather than next/link because it leaves the application entirely.
   const returnToHub = (
     <a className="headerReturn" href={returnToHubLink.href}>
       {returnToHubLink.label}

@@ -12,6 +12,14 @@ import { staticRoutes } from "./lib/siteNav";
 // guide or an unreleased collection cannot leak into the sitemap: only records
 // with a real route are listed.
 //
+// Retained, but no longer advertised: app/robots.ts disallows the whole site and
+// has dropped its Sitemap line, so nothing points a crawler here. Kept rather
+// than deleted for two reasons. It is generated from the same route records the
+// navigation is validated against, which makes it a free and always-accurate
+// inventory of what the site publishes. And scripts-lint.mjs asserts this file
+// keeps reading `staticRoutes` from app/lib/siteNav.ts rather than growing a
+// second copy of the route list — deleting the file would take that check with
+// it. Behind SSO it is not reachable unauthenticated in any case.
 export const dynamic = "force-static";
 
 export default function sitemap(): MetadataRoute.Sitemap {

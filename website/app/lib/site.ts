@@ -1,7 +1,23 @@
 // The canonical origin for this site, used for metadataBase (canonical + Open
 // Graph URLs) and the generated sitemap. One constant so a custom domain is a
 // single edit rather than a search across templates.
-export const SITE_URL = "https://sls-faculty-ai-skills.vercel.app";
+//
+// A dedicated hostname, with the application at its root. Deliberately not a
+// path on the public hub: there is no basePath in next.config.ts and nothing
+// here is written to work under a /faculty prefix. A path-mounted app would have
+// to rewrite every absolute route, asset URL, canonical and cookie scope, and it
+// would place an SSO-protected tree inside an origin that has to stay public.
+//
+// How this hostname reaches the build is infrastructure, not code: Apache
+// proxies ai-faculty.law.stanford.edu to the origin's root, the origin stays on
+// Amplify Hosting, and Amplify's own *.amplifyapp.com address is kept behind
+// Amplify password access control so the origin cannot be reached around the
+// proxy. None of that is configured from this repository.
+//
+// This replaced a Vercel preview hostname that has since been deleted and now
+// answers 404. The old value is deliberately not repeated here, so that grepping
+// the repository for it returns nothing.
+export const SITE_URL = "https://ai-faculty.law.stanford.edu";
 
 /** The Law Library's weekly AI news digest, hosted as a separate application. */
 export const AI_UPLOAD_URL = "https://ai-upload-stanford-law.vercel.app/";

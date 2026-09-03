@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { countLabel } from "./lib/counts";
 import { publishedTutorials, tutorialLibrary } from "./lib/tutorialLibrary";
@@ -7,6 +8,18 @@ import {
 } from "./lib/learnAiCollections";
 import { AI_LEARNING_HUB_URL, AI_UPLOAD_URL, STUDENT_AI_LEARNING_HUB_URL } from "./lib/site";
 import { VideoHero } from "./components/VideoHero";
+
+// The home page's canonical, declared here rather than on the root layout. It
+// used to sit in layout.tsx, where every descendant inherited it and each of the
+// other 75 pages claimed to be the home page. Title and description are still
+// inherited from the layout, which is correct for those — a canonical is the one
+// metadata field that cannot be shared, because it names a single URL.
+//
+// This matches how the rest of the site declares canonicals: per route, as a
+// path, resolved against metadataBase from app/lib/site.ts.
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 // The home page is the top-level portal: five destinations as cards, and nothing
 // else competing with them.
